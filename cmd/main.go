@@ -26,7 +26,7 @@ func main() {
 	log.Init(log.WithLevel(log.DebugLevel))
 
 	if err := godotenv.Load(); err != nil {
-		log.Fatalln("environment file not found")
+		log.Errorln("environment file not found")
 	}
 
 	log.Infoln("successfully loaded environment files")
