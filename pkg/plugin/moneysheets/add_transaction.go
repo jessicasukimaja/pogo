@@ -9,7 +9,7 @@ import (
 	"github.com/nickylogan/go-log"
 	"google.golang.org/api/sheets/v4"
 
-	"github.com/Rocksus/pogo/pkg/plugin"
+	"github.com/jessicasukimaja/pogo/pkg/plugin"
 )
 
 type addTransactionReplier struct {

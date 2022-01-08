@@ -9,8 +9,8 @@ import (
 	"github.com/line/line-bot-sdk-go/v7/linebot"
 	"github.com/nickylogan/go-log"
 
-	"github.com/Rocksus/pogo/internal/repositories/interpreter"
-	"github.com/Rocksus/pogo/pkg/plugin"
+	"github.com/jessicasukimaja/pogo/internal/repositories/interpreter"
+	"github.com/jessicasukimaja/pogo/pkg/plugin"
 )
 
 type MessageReplier interface {

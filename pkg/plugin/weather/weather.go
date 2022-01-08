@@ -12,7 +12,7 @@ import (
 	"github.com/nickylogan/go-log"
 	"github.com/pkg/errors"
 
-	"github.com/Rocksus/pogo/pkg/plugin"
+	"github.com/jessicasukimaja/pogo/pkg/plugin"
 )
 
 type Plugin struct {

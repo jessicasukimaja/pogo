@@ -7,19 +7,19 @@ import (
 	"github.com/line/line-bot-sdk-go/v7/linebot"
 	"github.com/nickylogan/go-log"
 
-	"github.com/Rocksus/pogo/internal/controllers/linehttp"
-	"github.com/Rocksus/pogo/internal/repositories/interpreter/witai"
-	"github.com/Rocksus/pogo/internal/usecase/gauth"
-	"github.com/Rocksus/pogo/internal/usecase/replier"
-	"github.com/Rocksus/pogo/internal/utils/logging"
-	"github.com/Rocksus/pogo/pkg/plugin"
-	"github.com/Rocksus/pogo/pkg/plugin/joke"
-	"github.com/Rocksus/pogo/pkg/plugin/moneysheets"
-	"github.com/Rocksus/pogo/pkg/plugin/weather"
+	"github.com/jessicasukimaja/pogo/internal/controllers/linehttp"
+	"github.com/jessicasukimaja/pogo/internal/repositories/interpreter/witai"
+	"github.com/jessicasukimaja/pogo/internal/usecase/gauth"
+	"github.com/jessicasukimaja/pogo/internal/usecase/replier"
+	"github.com/jessicasukimaja/pogo/internal/utils/logging"
+	"github.com/jessicasukimaja/pogo/pkg/plugin"
+	"github.com/jessicasukimaja/pogo/pkg/plugin/joke"
+	"github.com/jessicasukimaja/pogo/pkg/plugin/moneysheets"
+	"github.com/jessicasukimaja/pogo/pkg/plugin/weather"
 
 	"github.com/joho/godotenv"
 
-	"github.com/Rocksus/pogo/configs"
+	"github.com/jessicasukimaja/pogo/configs"
 )
 
 func main() {

@@ -11,7 +11,7 @@ import (
 	"github.com/line/line-bot-sdk-go/v7/linebot"
 	"github.com/pkg/errors"
 
-	"github.com/Rocksus/pogo/pkg/plugin"
+	"github.com/jessicasukimaja/pogo/pkg/plugin"
 )
 
 type Plugin struct {

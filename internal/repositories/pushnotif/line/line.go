@@ -3,7 +3,7 @@ package line
 import (
 	"context"
 
-	"github.com/Rocksus/pogo/internal/repositories/pushnotif"
+	"github.com/jessicasukimaja/pogo/internal/repositories/pushnotif"
 	"github.com/line/line-bot-sdk-go/v7/linebot"
 )
 

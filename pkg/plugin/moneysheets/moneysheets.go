@@ -7,7 +7,7 @@ import (
 	"google.golang.org/api/option"
 	"google.golang.org/api/sheets/v4"
 
-	"github.com/Rocksus/pogo/configs"
+	"github.com/jessicasukimaja/pogo/configs"
 )
 
 type Plugin struct {

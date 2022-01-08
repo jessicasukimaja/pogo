@@ -8,10 +8,10 @@ import (
 	"github.com/line/line-bot-sdk-go/v7/linebot"
 	"github.com/nickylogan/go-log"
 
-	"github.com/Rocksus/pogo/internal/repositories/pushnotif"
-	"github.com/Rocksus/pogo/internal/repositories/user"
-	"github.com/Rocksus/pogo/internal/utils/stringutil"
-	"github.com/Rocksus/pogo/pkg/plugin"
+	"github.com/jessicasukimaja/pogo/internal/repositories/pushnotif"
+	"github.com/jessicasukimaja/pogo/internal/repositories/user"
+	"github.com/jessicasukimaja/pogo/internal/utils/stringutil"
+	"github.com/jessicasukimaja/pogo/pkg/plugin"
 )
 
 type Notifier interface {

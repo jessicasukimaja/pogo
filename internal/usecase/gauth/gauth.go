@@ -12,7 +12,7 @@ import (
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
 
-	"github.com/Rocksus/pogo/configs"
+	"github.com/jessicasukimaja/pogo/configs"
 )
 
 // TODO: need to revamp google tokens to be on user level, not service level

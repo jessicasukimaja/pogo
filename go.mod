@@ -1,4 +1,4 @@
-module github.com/Rocksus/pogo
+module github.com/jessicasukimaja/pogo
 
 go 1.13
 
@@ -18,5 +18,3 @@ require (
 	google.golang.org/genproto v0.0.0-20211021150943-2b146023228c // indirect
 	google.golang.org/grpc v1.41.0 // indirect
 )
-
-replace github.com/Rocksus/pogo => github.com/jessicasukimaja/pogo v1.0.3

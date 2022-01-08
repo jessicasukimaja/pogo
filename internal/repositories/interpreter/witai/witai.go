@@ -1,8 +1,8 @@
 package witai
 
 import (
-	"github.com/Rocksus/pogo/configs"
-	"github.com/Rocksus/pogo/internal/repositories/interpreter"
+	"github.com/jessicasukimaja/pogo/configs"
+	"github.com/jessicasukimaja/pogo/internal/repositories/interpreter"
 	"github.com/mitchellh/mapstructure"
 	witai "github.com/wit-ai/wit-go"
 )
