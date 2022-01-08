@@ -62,7 +62,7 @@ func main() {
 
 	srv := &http.Server{
 		Handler:      http.DefaultServeMux,
-		Addr:         "localhost:" + config.Port,
+		Addr:         "0.0.0.0:" + config.Port,
 		WriteTimeout: 5 * time.Second,
 		ReadTimeout:  5 * time.Second,
 	}
