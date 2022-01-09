@@ -53,9 +53,11 @@ func main() {
 
 	interpreter := witai.NewInterpreter(config.Interpretor)
 	replier := replier.NewMessageReplier(interpreter, map[string]plugin.MessageReplier{
-		"tellJoke":                     jokePlugin,
-		"weather/checkWeather":         weatherPlugin,
-		"financialPlanning/addBalance": moneySheets.GetTransactionAdder(),
+		"tellJoke":                          jokePlugin,
+		"weather/checkWeather":              weatherPlugin,
+		"financialPlanning_addBalance":      moneySheets.GetTransactionAdder(),
+		"financialPlanning/checkBalance":    moneySheets.GetBalanceChecker(),
+		"financialPlanning/insertSpendings": moneySheets.GetSpendingAdder(),
 	})
 	controller := linehttp.NewController(bot, replier)
 	http.HandleFunc("/callback", logging.Middleware(controller.HandleWebhook))
